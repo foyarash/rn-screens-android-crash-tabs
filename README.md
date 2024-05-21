@@ -1,8 +1,11 @@
-# [New Architecture Example](https://reactnative.dev/docs/the-new-architecture/landing-page)
+This is a reproduction of an issue in `react-native-screens` where switch tabs with nested stacks multiple times causes a crash on android
 
-## 🚀 How to use
+## Steps to reproduce
 
-> `npx create-expo-app@latest -e with-new-arch`
+```bash
+bun install
+bun android
+```
 
-- Install packages with `yarn` or `npm install`.
-- Run `npx expo run:ios` and/or `npx expo run:android`. Requires native toolchains to be installed.
+1. Open the app
+2. Switch tabs 5 times
